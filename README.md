@@ -5,7 +5,13 @@
 ![Face Recognition Logo](https://github.com/kmhmubin/Face-Recognition-Attendance-System/blob/master/Document%20Metarial/Project%20demo%20images/Face-Recognition-Attendance-System-Logo.jpg)
 
 
-![GitHub](https://img.shields.io/github/license/kmhmubin/Face-Recognition-Attendance-System)
+![GitHub](https://img.shields.io/github/license/ArchismanKarmakar/Face-Recognition-based-attendance-python3.10?color=red&style=for-the-badge)
+
+![Issues](https://img.shields.io/github/issues/ArchismanKarmakar/Face-Recognition-based-attendance-python3.10?color=red&style=for-the-badge)
+
+![Forks](https://img.shields.io/github/forks/ArchismanKarmakar/Face-Recognition-based-attendance-python3.10?color=blue&style=for-the-badge)
+
+![Stars](https://img.shields.io/github/stars/ArchismanKarmakar/Face-Recognition-based-attendance-python3.10?color=yellow&style=for-the-badge)
 
 ## Motivation :astonished:
 
