@@ -49,6 +49,7 @@ tqdm==4.51.0
 urllib3==1.25.11
 wincertstore==0.2
 scikitlearn
+python-csv
 ```
 
 
@@ -153,6 +154,9 @@ pip install requests==2.24.0
 ```
 ```console
 pip install tqdm==4.51.0
+```
+```console
+pip install python-csv
 ```
 ```console
 pip install urllib3==1.25.11
