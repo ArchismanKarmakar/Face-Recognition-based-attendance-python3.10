@@ -13,16 +13,7 @@ import csv
 
 # getting names of all from training image file name
 
-path = 'Training_images'
-images = []
-classNames = []
-myList = os.listdir(path)
-print(myList)
-for cl in myList:
-    curImg = cv2.imread(f'{path}/{cl}')
-    images.append(curImg)
-    classNames.append(os.path.splitext(cl)[0])
-print(classNames)
+
 
 # generating images encoding list and returning as array
 
