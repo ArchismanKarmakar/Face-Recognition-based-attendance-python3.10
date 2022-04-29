@@ -4,6 +4,9 @@ import numpy as np
 import face_recognition
 import os
 from datetime import datetime
+import pandas as pd
+from threading import Thread
+from PIL import Image
 
 # from PIL import ImageGrab
 
