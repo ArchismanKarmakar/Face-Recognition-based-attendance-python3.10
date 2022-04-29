@@ -55,6 +55,8 @@ urllib3==1.25.11
 wincertstore==0.2
 scikitlearn
 python-csv
+pytest-shutil
+pandas
 ```
 
 
@@ -166,6 +168,12 @@ pip install urllib3==1.25.11
 ```
 ```console
 pip install wincertstore==0.2
+```
+```console
+pip install pytest-shutil
+```
+```console
+pip install pandas
 ```
 
 [ **Notice: During the package installization, sometime it shows some error, to avoid those error you can install those packages as admin. ]
