@@ -4,6 +4,11 @@ import numpy as np
 import face_recognition
 import os
 from datetime import datetime
+
+# from PIL import ImageGrab
+
+# getting names of all from training image file name
+
 path = 'Training_images'
 images = []
 classNames = []
@@ -14,13 +19,22 @@ for cl in myList:
     images.append(curImg)
     classNames.append(os.path.splitext(cl)[0])
 print(classNames)
+
+# generating images encoding list and returning as array
+
 def findEncodings(images):
     encodeList = []
+
+
     for img in images:
         img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
         encode = face_recognition.face_encodings(img)[0]
         encodeList.append(encode)
     return encodeList
+
+
+# writing into CSV / marking attendance
+
 def markAttendance(name):
     with open('Attendance.csv', 'r+') as f: #opening CSV in r+
         myDataList = f.readlines()
@@ -34,9 +48,18 @@ def markAttendance(name):
                 now = datetime.now()
                 dtString = now.strftime('%m/%d/%Y, %H:%M:%S')
                 f.writelines(f'\n{name},{dtString}')
+
+#### FOR CAPTURING SCREEN RATHER THAN WEBCAM
+# def captureScreen(bbox=(300,300,690+300,530+300)):
+#     capScr = np.array(ImageGrab.grab(bbox))
+#     capScr = cv2.cvtColor(capScr, cv2.COLOR_RGB2BGR)
+#     return capScr
+
 encodeListKnown = findEncodings(images)
 print('Encoding Complete')
+
 cap = cv2.VideoCapture(0)
+
 while True:
     success, img = cap.read()
 # img = captureScreen()
