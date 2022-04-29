@@ -26,7 +26,6 @@ Build With -
 
 Module Used -
 
-All The Module are Latest Version.
 ```console
 certifi==2020.6.20
 chardet==3.0.4
