@@ -7,6 +7,7 @@ from datetime import datetime
 import pandas as pd
 from threading import Thread
 from PIL import Image
+import csv
 
 # from PIL import ImageGrab
 
