@@ -2,7 +2,7 @@
 
 ### Recognize The faces And Take Automatic Attandance. :sparkles:
 
-![Face Recognition Logo](https://github.com/kmhmubin/Face-Recognition-Attendance-System/blob/master/Document%20Metarial/Project%20demo%20images/Face-Recognition-Attendance-System-Logo.jpg)
+![Face Recognition Logo](https://user-images.githubusercontent.com/92569441/165970699-4bc49a7a-90ee-4f61-8e21-8ebe06e49a8d.jpg)
 
 
 ![GitHub](https://img.shields.io/github/license/ArchismanKarmakar/Face-Recognition-based-attendance-python3.10?color=red&style=for-the-badge)
