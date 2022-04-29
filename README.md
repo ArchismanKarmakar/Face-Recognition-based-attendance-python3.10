@@ -199,4 +199,4 @@ Thanks to [Sumon Chatterjee](https://github.com/) for working with me.
 
 ## Licence :scroll:
 
-MIT © [Archisman Karmakar](https://github.com/Archisman Karmakar)
+MIT © [Archisman Karmakar](https://github.com/ArchismanKarmakar) Archisman Karmakar
