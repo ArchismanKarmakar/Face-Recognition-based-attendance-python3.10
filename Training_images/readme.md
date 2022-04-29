@@ -2,7 +2,7 @@
 ##  Train the images for face recognition. :sparkles:
 
 
-![Traning image process](https://www.google.com/url?sa=i&url=https%3A%2F%2Ftowardsdatascience.com%2Freal-time-face-recognition-an-end-to-end-project-b738bb0f7348&psig=AOvVaw3hjxsFeK_ypmANokEXwrAx&ust=1651332801456000&source=images&cd=vfe&ved=0CAwQjRxqGAoTCPCJ66HMufcCFQAAAAAdAAAAABCFAQ)
+![Traning image process](https://miro.medium.com/max/1400/1*sgROTW1Wa-u4hhUN62tWyw.png)
 
 
 - Add images of each person you want to recognise to a folder by their name in `Training_images`.
