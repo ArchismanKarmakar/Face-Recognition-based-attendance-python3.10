@@ -99,8 +99,6 @@ If your pc don't have virtual enviroment or pip install the follow this link.
 
 After creating the enviroment on your project let's install the necessary packages. 
 
-![pip isntall demo](https://github.com/kmhmubin/Face-Recognition-Attendance-System/blob/master/Document%20Metarial/Project%20demo%20images/pip%20install_edit_0.gif)
-
 To install those package open the terminal or command line and paste the code from below
 
 ```console
