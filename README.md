@@ -75,7 +75,7 @@ Download using GitHub Desktop
 
 or
 
-You can clone the project with git bash.To clone the project using git bash first open the git bash and write the following code
+You can clone the project with git bash. To clone the project using git bash first open the git bash and write the following code
 ```
 git clone https://github.com/ArchismanKarmakar/Face-Recognition-based-attendance-python3.10.git
 ```
@@ -172,14 +172,19 @@ pip install wincertstore==0.2
 
 [ **Notice: During the package installization, sometime it shows some error, to avoid those error you can install those packages as admin. ]
 
+## Image Training & Working
+
+Put your images in the folder called ```Training_images``` and the name of the image should be the name of the person. Attendance will be marked on the ```.csv``` file as per the name of the file on the trained image. Trained images are generally stored in Temp in AppData folder in Windows, but I am not sure about Linux & Mac.
+
 ## Test Run :bicyclist:
 
 After creating the enviroment and installing the packages, open the IDE terminal/command line to run the program. Using the code below.
 
 ```
-py main.py
+python -u "./main.py"
 ```
-Here is a demo to run the program. I'm Using the Pycharm IDE in my demo.
+
+
 
 
 ## How To Use? :pencil:
