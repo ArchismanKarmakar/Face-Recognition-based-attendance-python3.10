@@ -27,10 +27,10 @@ We seek to provide a valuable attendance service for both teachers and students.
 
 ## Tech Used :computer:
 
-Build With - 
+##### Build With - 
 * Python 3.10.x
 
-Module Used -
+##### Module Used -
 
 ```console
 certifi==2020.6.20
