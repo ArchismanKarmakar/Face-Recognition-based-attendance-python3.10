@@ -215,7 +215,7 @@ If you want to use it just follow the steps below.
 
 ## Credits :sparkling_heart:
 
-Thanks to [Sumon Chatterjee](https://github.com/) for working with me.
+Thanks to [Sumon Chatterjee](https://github.com/Sumon670) for working with me.
 
 ## Licence :scroll:
 
