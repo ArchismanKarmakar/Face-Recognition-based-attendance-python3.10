@@ -205,12 +205,13 @@ If you want to use it just follow the steps below.
 6. Run the project using the command line or your IDE Run Button
 
 ## Known Bugs :bug:
-------------------------------
+
+```{toggle}
 This project have some bugs.
 
 * <strike>Student Details: In student details folder the **StudentDetails.csv** file don't have ID & name column.This problem show when the program run first time and create the <stong>StudentDetails.csv</strong> file automatically. To soleve the problelm just open the file and add *ID & Name Column* in the file and save it.</strike>
 * Auto Attachment: This is not a problem actually. The problem is before sent auto mail we have to manually change the file name. I tried to automate the attachment but i faild.
-
+```
 
 
 ## Credits :sparkling_heart:
